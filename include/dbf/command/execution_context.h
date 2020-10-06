@@ -3,7 +3,7 @@
 #include <string>
 
 namespace dbf {
-    struct Context {
+    struct ExecutionContext {
         discord::Client client;
 
         discord::User sender;
