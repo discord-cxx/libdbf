@@ -4,7 +4,7 @@
 #include "execution_context.h"
 
 namespace dbf {
-    class ConstraintBuilder : std::enable_shared_from_this<ConstraintBuilder> {
+    class ConstraintBuilder : public std::enable_shared_from_this<ConstraintBuilder> {
     private:
         typedef std::shared_ptr<ConstraintBuilder> SharedPtrThis;
 
