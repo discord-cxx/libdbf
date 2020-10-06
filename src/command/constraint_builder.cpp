@@ -19,4 +19,12 @@ namespace dbf {
 
         return this->shared_from_this();
     }
+
+    ConstraintBuilder::SharedPtrThis ConstraintBuilder::requireInterval(uint64_t millisecondsInterval) {
+        if (this->context->registry->timerPool) {
+
+        }
+
+        return this->shared_from_this();
+    }
 }

@@ -20,5 +20,7 @@ namespace dbf {
         [[nodiscard]] bool getIsMet() const noexcept;
 
         SharedPtrThis assert(bool assertion);
+
+        SharedPtrThis requireCooldown(uint64_t intervalInMilliseconds);
     };
 }

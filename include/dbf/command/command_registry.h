@@ -3,6 +3,6 @@
 namespace dbf {
     class CommandRegistry {
     public:
-        // TODO
+        TimerPool timerPool;
     };
 }
